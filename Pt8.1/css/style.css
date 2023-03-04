@@ -1,0 +1,624 @@
+.row {
+    display: flex;
+}
+
+/* Aquesta part del full d'estils configura l'index.html */
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px 0px 0px 16px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.hybrid {
+    max-width: 1080px;
+    min-width: 480px;
+}
+
+.m0a {
+    margin: 0 auto;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w95 {
+    width: 95%;
+}
+
+.w90 {
+    width: 90%;
+}
+
+.w80 {
+    text-align: right;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w25 {
+    width: 21%;
+}
+
+
+.w20 {
+    width: 20%;
+}
+
+.w15 {
+    width: 15%;
+    text-align: center;
+    color: #90A4AE;
+    border-radius: 15px;
+}
+
+.w10 {
+    width: 10%;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+#slide {
+    margin-bottom: 50px;
+}
+
+#header {
+    margin: 10px 0px 0px 0px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #90A4AE;
+}
+
+div.logo {
+    text-align: center;
+}
+
+div#search {
+    border: 2px solid rgba(128, 128, 128, 0.638);
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+input.search {
+    margin-left: 5px;
+    border: 0px;
+    width: 95%;
+}
+
+img[alt="searchlupa"] {
+    width: 4%;
+}
+
+input#puja-producte {
+    background-color: #13C1AC;
+    background-image: url(../images/icons/plus.png);
+    background-repeat: no-repeat;
+    background-position: 6px 8px;
+    color: white;
+    margin: 5px;
+    padding: 10px 10px 10px 0px;
+    padding-left: 35px;
+    border: 0px;
+    border-radius: 25px;
+}
+
+#puja-producte:hover {
+    background-image: url(../images/icons/pluswhite.png);
+    background-color: #0f9989;
+    transition: 0.5s ease;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#slide p#primer-text {
+    margin: 100px 0px 50px 0px;
+    text-align: center;
+    color: #90A4AE;
+}
+
+div#slide h1 {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+div.inner img {
+    width: 100%;
+}
+
+div#productes {
+    background-color: #90a4ae4a;
+}
+
+.productes {
+    padding: 30px 0px 50px 0px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.productes h1 {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.inner img {
+    border-radius: 15px;
+}
+
+.anunci {
+    background-color: white;
+    padding: 7px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 2px 2px 20px #90A4AE;
+}
+
+.anunci p {
+    color: #90A4AE;
+    margin-top: 5px;
+}
+
+.anunci h2 {
+    margin-bottom: 0px;
+}
+
+.footer {
+    justify-content: space-between;
+    margin: 50px 10%;
+    color: #90A4AE;
+}
+
+a[href="cars/cars.html"] {
+    color: #90A4AE;
+}
+
+.footer p {
+    color: #90A4AE;
+    font-weight: bold;
+}
+
+ul.list-footer li {
+    font-size: 13px;
+    padding: 3px 20px 3px 0px;
+    width: 100%;
+}
+
+div#go-up {
+    background-color: #13C1AC;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin: 0px 5px 5px auto;
+    position: absolute;
+    right: 3px;
+}
+
+img[alt="arrow-top"] {
+    margin-top: 18px;
+}
+
+div#go-up:hover {
+    background-color: #0f9989;
+    transition: 0.5s ease;
+}
+
+.w15:hover {
+    border: 0.5px solid #90A4AE;
+    transition: 0.5s ease;
+    box-shadow: 2px 2px 15px #90A4AE;
+    cursor: pointer;
+
+}
+
+.row-c {
+    flex-wrap: wrap;
+}
+
+/* Aquesta part del full d'estils configura la página cars.html */
+
+.fixb {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: #253238;
+    text-align: center;
+    color: #ECEFF1;
+}
+
+h1#h1-cotxes {
+    margin: 50px 0px 30px 0px;
+    text-align: left;
+}
+
+p.anunci-p {
+    background-color: #90a4ae4a;
+    border-radius: 25px;
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 5px 7px;
+    margin: 5px 5px 0px 2px;
+}
+
+.caracteristiques-cotxes {
+    margin-bottom: 20px;
+}
+
+#porsche-link {
+    color: black;
+}
+
+.nom-cotxe {
+    font-weight: 500;
+    color: black;
+}
+
+.anunci-cotxes:hover {
+    box-shadow: 3px 3px 20px #253238;
+    padding: 20px 16px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+/*Aquesta part del full d'estils configura la pàgina porsche.html*/
+
+.hybrid-porsche {
+    max-width: 760px;
+    min-width: 480px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px #90A4AE;
+}
+
+.porsche-top {
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.porsche-top-left {
+    background-image: url(../images/porsche/avatar.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-y: center;
+    height: 60px;
+}
+
+#jorge {
+    margin: 11px 57px 5px;
+}
+
+.porsche-top-center {
+    text-align: center;
+}
+
+img[alt="rating"] {
+    margin: 10px 0px 0px;
+}
+
+.p-porsche {
+    margin: 0px 57px 0px;
+    color: #90A4AE;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.contacta {
+    background-color: #13C1AC;
+    background-image: url(../images/icons/contact.png);
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px 30px 10px 10px;
+    padding-left: 45px;
+    border: 0px;
+    border-radius: 25px;
+}
+
+.contacta:hover {
+    background-color: #0f9989;
+    background-image: url(../images/icons/contactwhite.png);
+    transition: 0.5s ease;
+}
+
+input {
+    cursor: pointer;
+}
+
+.porsche-top-right {
+    text-align: right;
+}
+
+img[alt="porsche-image"] {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.porsche-name {
+    margin-bottom: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #90A4AE;
+}
+
+#porsche-price {
+    text-align: left;
+    margin: 10px 0px 0px;
+}
+
+#porsche-name {
+    margin: 10px 0px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.porsche-p-link {
+    background-color: #90a4ae4a;
+    border-radius: 25px;
+    border: 1px solid #90A4AE;
+    color: #90A4AE;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 7px;
+    margin: 5px 5px 0px 2px;
+}
+
+.porsche-p-link:hover {
+    border: 1px solid #0f9989;
+    color: #0f9989;
+    transition: 0.5s ease;
+}
+
+.table-porsche {
+    font-size: 13px;
+}
+
+.td-b {
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.porsche-caracteristiques {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #90A4AE;
+}
+
+p#descripcio-porsche {
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #90A4AE;
+}
+
+.ubicacio-porsche {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #90A4AE;
+}
+
+table#form {
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 95%;
+    border: 1px solid #90A4AE;
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: #90A4AE;
+}
+
+input.search {
+    border: 0px;
+}
+
+div.anunci-porsche {
+    box-shadow: 0px 0px;
+    padding: 0px 0px;
+}
+
+.altres-cotxes-porsche {
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.image-porsche-car img {
+    border-radius: 5px;
+}
+
+.altres-usuaris-porsche {
+    padding-top: 30px;
+}
+
+.m0 {
+    margin: 10px 0px 0px;
+}
+
+.color-g {
+    color: #90A4AE;
+    margin: 0px 0px;
+}
+
+div.contact-us {
+    padding-bottom: 50px;
+}
+
+.section-top-porsche {
+    margin-bottom: 20px;
+}
+
+#envia-el-missatge {
+    width: 97%;
+    border-radius: 5px;
+    background-color: #13C1AC;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 5px 0px 0px;
+    border: 0px;
+}
+
+#envia-el-missatge:hover {
+    background-color: #0f9989;
+    transition: 0.5s ease;
+}
+
+#h3contacta {
+    margin-bottom: 0px;
+}
+
+#message-form-porsche {
+    padding-bottom: 20px;
+}
+
+iframe#mapa-porsche {
+    width: 100%;
+}
+
+/* Aquesta part del full d'estils configura el responsive dels encapçalaments, els peus, l'index.html, cars.html*/
+
+@media screen and (max-width: 1024px) {
+    .categories {
+        flex-wrap: wrap;
+    }
+
+    .w25 {
+        width: 29%;
+    }
+
+    .w15 {
+        width: 25%;
+    }
+
+    .w30 {
+        width: 29%;
+    }
+
+    input.search {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header {
+        display: block;
+    }
+
+    .header div {
+        margin: 10px auto;
+        width: 95%;
+    }
+
+    #header {
+        border: 0px;
+    }
+
+    div.button-puja-un-producte {
+        text-align: center;
+    }
+
+    .w30 {
+        width: 46%;
+    }
+
+    .w25 {
+        width: 46%;
+    }
+
+    .no-display {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.row-w50 {
+        display: block;
+    }
+
+    div.row-w50 div.w50 {
+        width: 95%;
+    }
+
+    .categories div.w30 {
+        width: 100%;
+    }
+
+    div.categories-categories {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .w15 {
+        width: 50%;
+        margin: 20px 0px;
+    }
+
+    div.porsche-top-center {
+        display: none;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .row-c {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .anunci-porsche {
+        width: 45%;
+    }
+
+    #footer-left {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .categories div.w30 {
+        width: 95%;
+    }
+
+    .caracteristiques-cotxes {
+        display: flex;
+    }
+
+    .w25 {
+        width: 93%;
+    }
+
+}
